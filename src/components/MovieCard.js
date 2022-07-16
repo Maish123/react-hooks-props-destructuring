@@ -14,7 +14,7 @@ function MovieCard({
   );
 }
 
-// function MovieCard({title,posterSrc, genres}){
+// function MovieCard({title,posterSrc(we pass a default value here just in case we dont have the data), genres}){
 //   return(
 //     <div className="movie-card">
 //       <img src={posterSrc} alt={title} />
